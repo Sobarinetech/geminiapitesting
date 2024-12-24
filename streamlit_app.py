@@ -6,7 +6,7 @@ import google.generativeai as genai
 genai.configure(api_key=st.secrets["GOOGLE_API_KEY"])
 
 # Streamlit App UI
-st.title("Ever AI")
+st.title("Created by Dhruv")
 st.write("Use enerative AI to get responses based on your prompt.")
 
 # Prompt input field
